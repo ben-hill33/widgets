@@ -42,14 +42,14 @@ const Search = () => {
     }
   }, [term]);
 
-  const renderedResults = results.map((results) => {
+  const renderedResults = results.map((result) => {
     return (
-      <div key={results.pageid} className="item">
+      <div key={result.pageid} className="item">
         <div className="content">
           <div className="header">
-            {results.title}
+            {result.title}
           </div>
-          {results.snippet}
+          <span dangerouslySetInnerHTML={{ __html: result.snippet }}></span>
         </div>
       </div>
     );
