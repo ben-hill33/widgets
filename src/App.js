@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 // import Accordion from './components/Accordion';
 // import Search from './components/Search';
-import Dropdown from './components/Dropdown';
+import Dropdown from './components/Dropdown.js';
+import Translate from './components/Translate.js'
 
 // const items = [
 //   {
@@ -41,7 +42,7 @@ const App = () => {
     <div>
       {/* <Accordion items={items} /> */}
       {/* <Search /> */}
-      <button onClick={() => setShowDropdown(!setShowDropdown)}>
+      {/* <button onClick={() => setShowDropdown(!setShowDropdown)}>
         Toggle Dropdown
         </button>
       {showDropdown ?
@@ -50,7 +51,8 @@ const App = () => {
           onSelectedChange={setSelected}
           options={options}
         /> : null
-      }
+      } */}
+      <Translate />
     </div>
   );
 
