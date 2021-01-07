@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+## Links
+
+[Google Translate API](https://cloud.google.com/translate/docs/reference/rest/v2/translate)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
